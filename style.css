@@ -1,0 +1,1074 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid;
+}
+.cormorant{
+  font-family: "Cormorant", serif;
+  font-weight: weight;
+  font-style: normal;
+}
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-weight: weight;
+  font-style: normal;
+}
+.great-vibes-regular{
+    font-family: "Great Vibes", cursive;
+    font-style: normal;
+}
+
+header{
+    border: 1px solid rgb(223, 222, 222);
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: #FFFFFF;
+}
+.fa-search{
+    display: none;
+}
+.fa-shopping-bag{
+    display: none;
+}
+header img{
+    width: 9.5%;
+    height: 44px; 
+}
+nav ul li{
+    display: none;
+}
+nav{
+   padding: 10px;
+} 
+.hero{
+    background: url(../images/hero-background1.jpg);
+    text-align: center;
+    background-position: right;
+    background-size: 550%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.hero h2{
+    padding-top: 60px;
+    font-family: "Great Vibes", cursive;
+    color: #C19D56;
+    font-size: 40px;
+    font-weight: 100;
+}
+.hero h1{
+    gap: 0px 10px;
+    letter-spacing: 9px;
+    font-size: 55px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 17px;
+}
+.para p{
+    display: none;
+}
+.b1 button{
+    color:#C19D56;
+    border: 1px solid #C19D56;
+    padding: 13px 55px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin: 33px 0px 15px 0px;
+}
+.b2 button{
+    background-color: black;
+    border-color: 1px black;
+    color: #FFFFFF;
+    padding: 15px 57px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+}
+.far{
+    color: rgb(216, 167, 44);
+}
+
+.story{
+    width: 100%;
+    background: url(../images/story-background.jpg);
+    text-align: center;
+    padding: 160px 0px;
+    background-position: center;
+    background-size: 560%;
+    background-repeat: no-repeat;
+}
+.story h3{
+    font-family: "Great Vibes", cursive;
+    color: #C19D56;
+    font-size: 50px;
+    font-weight: 100;
+}
+.story h2{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding-bottom: 17px;
+}
+.story p{
+    font-family: "Cormorant", serif;
+    font-style: italic;
+    font-size: 24px;
+    padding: 11px 24px;
+    line-height: 33px;
+}
+
+.quote{
+    width: 100%;
+    background: url(../images/quote-background.jpg);
+    background-position: center;
+    background-size: 350%;
+    background-repeat: no-repeat;
+}
+.quote h2{
+    font-family: "Great Vibes", cursive;
+    color: #C19D56;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 200px 10px;
+}
+
+.truffle{
+    width: 100%;
+    background: url(../images/truffle-background.jpg);
+    padding: 150px 0px;
+    text-align: center;
+}
+.truffle h3{
+    font-family: "Great Vibes", cursive;
+    color: #C19D56;
+    font-size: 50px;
+    font-weight: 100;
+}
+.truffle h2{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+.truffle p{
+    font-family: "Cormorant", serif;
+    font-size: 24px;
+    font-style: italic;
+    padding: 0px 20px;
+    line-height: 35px;
+}
+.truffle img{
+    padding: 20px 0px;
+}
+.truffle_inner img{
+    width: 95%;
+    padding: 2px 0px;
+}
+.truffle_inner h3{
+    color: black;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+.truffle_inner p{
+    font-family: "Cormorant", serif;
+    font-size: 21px;
+}
+
+.images img{
+    width: 100%;
+    padding: 4px 0px;
+    object-fit: cover;
+    height: 25%;
+}
+
+.prices{
+    width: 100%;
+    background: url(../images/price-background.jpg);
+    background-position: left;
+    background-size: 460%;
+    padding: 45px 0px;
+    text-align: center;
+}
+.prices h3{
+    font-family: "Great Vibes", cursive;
+    color: #C19D56;
+    font-size: 50px;
+    padding-top: 40px;
+    font-weight: 100;
+}
+.prices h2{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.prices img{
+    padding: 15px 0px;
+}
+.prices p{
+    font-weight: 200;
+    font-family: "Cormorant", serif;
+    font-style: italic;
+    font-size: 24px;
+    padding: 0px 20px;
+}
+.prices_inner div{
+    border: 1px solid rgb(231, 230, 230);
+    display: block;
+    background-color: #FFFFFF;
+    background-image: none;
+    padding: 40px 20px;
+    margin: 40px 15px;
+}
+.prices_inner div h2{
+    font-family: "Great Vibes", cursive;
+    color: #C19D56;
+    font-size: 50px;
+    font-weight: 100;
+}
+.prices_inner div h3{
+    font-weight: 200;
+    font-family: "Cormorant", serif;
+    font-style: italic;
+    font-size: 50px;
+    color: black;
+}
+.prices_inner div p{
+    font-size: 21px ;
+    line-height: 45px;
+    padding: 30px 20px;
+}
+.prices_inner div button{
+    border: none;
+    color: #C19D56;
+    background: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.list{
+    background: url(../images/truedelight_background.jpg);
+    background-position: center;
+    background-size: 470%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.list h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 29px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-top: 120px ;
+}
+.list_inner1 div{
+    padding-bottom: 30px;
+}
+.list_inner1 h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 10px 4px 10px 25px;
+    text-align: left;
+}
+.list_inner1 p{
+    font-family: "Cormorant", serif;
+    font-size: 21px;
+    font-style: italic;
+}
+.list button{
+    border: 1px solid;
+    outline: 1px solid #C19D56;
+    outline-offset: 2px;
+    background-color: #C19D56;
+    padding: 17px 50px;
+    color: #FFFFFF;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin: 25px 135px 160px 10px;
+}
+.list_inner2{
+    display: none;
+}
+
+.tradition{
+    background: url(../images/tradition_background.jpg);
+    text-align: center;
+} 
+.tradition h2{
+    font-family: "Great Vibes", cursive;
+    color: #C19D56;
+    font-size: 50px;
+    font-weight: 100;
+    padding-top: 130px;
+}
+.tradition h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.tradition p{
+    font-family: "Cormorant", serif;
+    font-size: 24px;
+    font-style: italic;
+    padding: 20px 15px 55px 15px;
+    line-height: 35px;
+}
+.tradition_inner img{
+    width: 100%;
+}
+.tradition_inner h3{
+    padding-left: 10px;
+    text-align: left;
+    font-size: 23px;
+}
+.tradition_inner p{
+    text-align: left;
+    font-size: 21px;
+}
+
+.faces img{
+    width: 100%;
+    padding: 1px 0px;
+    object-fit: cover;
+}
+
+.about_us{
+    background: url(../images/aboutus_backround.jpg) ;
+    text-align: center;
+    padding: 80px 0px;
+
+}
+.about_us h3{
+    font-family: "Great Vibes", cursive;
+    color: #C19D56;
+    font-size: 50px;
+    font-weight: 100;
+}
+.about_us h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 0px 20px;
+}
+.about_us img{
+    padding-top: 20px;
+}
+.about_us p{
+    font-family: "Cormorant", serif;
+    font-size: 24px;
+    font-style: italic;
+    padding: 20px 15px 55px 15px;
+    line-height: 35px;
+}
+form input, textarea{
+    padding: 14px 18px; 
+    display: block;
+    width: 85%;
+    text-align: left;
+    margin: 20px 15px;
+    border: 1px solid #dad7d7 ;
+}
+input::placeholder,
+textarea::placeholder {
+  font-family: "Cormorant", serif;
+  font-size: 16.5px;
+  font-style: italic;
+  color: black;
+}
+textarea{
+    height: 150px;
+}
+input[type="SUBMIT"] {
+    border: 1px solid;
+    width: 50%;
+    text-align: center;
+    outline: 1px solid #C19D56;
+    outline-offset: 2px;
+    background-color: #C19D56;
+    padding: 17px 50px;
+    color: #FFFFFF;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin: -2% 24%;
+}
+
+.vedio img{
+    width: 100%;
+    object-fit: cover;
+    padding: 80px 0px;
+}
+
+.testimonal{
+    width: 100%;
+    background: url(../images/testimonal_background.jpg);
+    background-position: center;
+    text-align: center;
+}
+.testimonal h3{
+    font-family: "Great Vibes", cursive;
+    color: #C19D56;
+    font-size: 50px;
+    font-weight: 100;
+}
+.testimonal h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 0px 20px;
+}
+.testimonal p{
+    font-family: "Cormorant", serif;
+    font-size: 24px;
+    font-style: italic;
+    padding: 20px 15px 55px 15px;
+    line-height: 35px;
+    padding: 10px 60px;
+    color: rgb(66, 66, 66);
+}
+.testimonal img{
+    padding: 15px 0px;
+}
+.testimonal h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.testimonal span{
+    font-family: "Cormorant", serif;
+    font-size: 21px;
+    font-style: italic;
+    color: rgb(139, 139, 139);
+}
+
+.far{
+    padding: 60px 0px;
+    font-size: 17px;
+}
+
+.contact,footer{
+    background-color: black;
+    display: block;
+    text-align: center;
+}
+.c1{
+    padding: 100px 0px;
+}
+.c1 h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+.c1 address{
+    font-family: "Cormorant", serif;
+    font-size: 21px;
+    font-style: italic;
+    color: white;
+}
+.c2 p img{
+    height: 20%;
+    width: 30px;
+}
+.c2 h3{
+    font-family: "Great Vibes", cursive;
+    color: #C19D56;
+    font-size: 30px;
+    font-weight: 100;
+}
+.c2 h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #C8C8C8;
+}
+.c2 p{
+    font-family: "Cormorant", serif;
+    font-size: 21px;
+    font-style: italic;
+    color: #C8C8C8;
+    line-height: 30px;
+    padding: 0px 5px ;
+}
+.inner_child{
+    width: 85%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #C19D56;
+    font-size: 35px;
+    padding: 40px 10px;
+}
+.c3 img{
+    width: 100%;
+    height: 50%;
+    padding: 80px 0px;
+}
+
+footer p{
+    text-align: center;
+    font-family: "Cormorant", serif;
+    font-size: 17px;
+    font-style: italic;
+    color: #B5B5B5;
+    line-height: 30px;
+    padding: 18px 30px;
+}
+
+@media only screen and (min-width:768px){
+    header{
+        padding: 13px 75px;
+    }
+    header img{
+        width: 4.5%;
+        height: 42px; 
+    }
+    .hero{
+        padding: 1px 0px;
+        background-size: 170%;
+    }
+    .hero h2{
+        font-size: 60px;
+    }
+    .hero h1{
+        font-size: 95px;
+    }
+    .para p{
+        display: block;
+        text-align: center;
+        font-family: "Cormorant", serif;
+        font-size: 26px;
+        font-style: italic;
+        color: #000000;
+        line-height: 40px;
+        padding: 18px 100px;
+    }
+    .hero_inner div{
+        display: flex;
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .story{
+        background-size: 240%;
+    }
+    .story h3{
+        font-size: 50px;
+    }
+    .story h2{
+        font-size: 47px;
+    }
+    .story p{
+        margin: 0px 30px;
+    }
+    .quote{
+        background-size: 150%;    
+    }
+    .quote h2{
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-size: 90px;
+        padding: 160px 30px;
+    }
+    .truffle h2{
+        font-size: 47px;
+    }
+    .truffle p{
+        padding: 0px 30px;
+        line-height: 38px;
+        margin: 0px 30px;
+    }
+    .truffle_inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .truffle_inner div{
+       flex: 0 0 50%;
+       height: 350px;
+    }
+    .truffle_inner div img{
+        width: 66%;
+        height: 60%;
+    }
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .images div{
+        width: 40%;
+        padding: 1px 5px;
+        height: 105%;
+        flex: 0 0 50%;
+    }
+    .col5{
+        margin-left: 381px;
+        margin-top: -376.5px;
+    }
+    .prices{
+        background-size: 250%;
+        background-repeat: repeat;
+    }
+    .prices h2{
+        font-size: 47px;
+    }
+    .prices p{
+        margin: 0px 40px;
+    }
+    .prices_inner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .prices_inner div{
+        width: 40%;
+        flex: 0 0 40%;
+        padding: 30px 10px;
+        margin: 80px  30px 0px 40px;
+    }
+    .list{
+        width: 100%;
+        background-size: 190%;
+        text-align: left;
+    }
+    .list img{
+        margin-left: 70px;
+    }
+    .list_inner1{
+        display: none;
+    }
+    .list h2{
+        font-size: 36px;
+        padding-top: 95px ;
+        padding-left: 80px;
+    }
+    .list_inner2{
+        display: block;
+    }
+    .list_inner2 div{
+        padding-bottom: 30px;
+        padding-left: 80px;
+        text-align: left;
+        line-height: 30px;
+    }
+    .list_inner2 h3{
+        padding: 10px 4px 0px 0px;
+    }
+    .list_inner2 p{
+        font-family: "Cormorant", serif;
+        font-size: 21px;
+        font-style: italic;
+    }
+    .list button{
+        padding: 17px 55px;
+        margin: 20px 135px 140px 80px;
+    }
+    .tradition h3{
+        font-size: 47px;
+    }
+    .tradition p{
+        margin: 0px 50px;
+    }
+    .tradition_inner img{
+        width: 80%;
+        padding: 80px 0px;
+    }
+    .tradition_inner h3{
+        padding-left: 70px;
+        font-size: 24px;
+    }
+    .about_us h3{
+        margin-top: 60px;
+    }
+    .about_us h2{
+        font-size: 47px;
+        letter-spacing: 3px;
+    }
+    .about_us p{
+        margin: 0px 50px;
+    }
+    form input, textarea{
+        width: 75%;
+        margin: 20px 90px;
+    }
+    textarea{
+        height: 170px;
+    }
+    input[type="SUBMIT"] {
+        width: 25%;
+        margin: 3% 36%;
+    }
+    .testimonal{
+        background-size: 600%;
+    }
+    .testimonal h2{
+        font-size: 47px;
+        letter-spacing: 3px;
+    }
+    .testimonal p{
+        margin: 0px 60px;
+    }
+    .far{
+        padding: 60px 0px;
+        font-size: 17px;
+    }
+    .c1{
+        margin-top: 90px;
+    }
+    .c1 address{
+        line-height: 30px;
+        color: #C8C8C8;
+        margin: 20px 100px;
+    }
+    .c2 p{
+        margin: 20px 80px;
+    }
+    .inner_child{
+        width: 40%;
+    }
+    .c3 img{
+        width: 50%;
+        height: 50%;
+        padding: 80px 0px;
+        margin: 40px 0px;
+    }
+    
+    footer p{
+        text-align: center;
+        font-family: "Cormorant", serif;
+        font-size: 17px;
+        font-style: italic;
+        color: #B5B5B5;
+        line-height: 30px;
+        padding: 18px 30px;
+    }
+}
+@media only screen and (min-width:1200px){
+    header{
+        border: none;
+        width: 100%;
+        height: 100px;
+        padding: 30px 60px;
+        z-index: 1;
+    }
+    header img{
+        width: 2%;
+        height: 58px; 
+        margin-left: 70px;
+    }
+    .fa-search, .fa-shopping-bag, .fa-bars{
+        display: inline-flex;
+        color: #C19D56;
+        padding: 0px 20px;
+    }
+    nav ul li{
+        display: inline-flex;
+        flex-wrap: wrap;
+        padding: 0px 20px;
+    }
+    nav ul li a{
+        font-family: "Montserrat", sans-serif;
+        font-size: 13px;
+        text-decoration: none;
+        color: #000000;
+    }
+    .hero{
+        width: 100%;
+        text-align: right;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .hero h2{
+        margin: 10% 25% 0% 0%;
+        font-size: 60px;  
+    }
+    .hero img{
+        margin: 0% 29% 0% 0%;
+    }
+    .hero h1{
+        margin: 0% 20% 0% 0%;
+        font-size: 95px;
+        padding-bottom: 10px;
+    }
+    .para p{
+        margin: 0% 15% 0% 0%;
+        display: inline-block;
+        text-align: right;
+        font-family: "Cormorant", serif;
+        font-style: italic;
+        font-size: 26px;
+    }
+    .b1 button{
+        margin: 0% 170% 0% 0%;
+        padding: 15px 60px;
+        display: inline-block;
+        white-space: nowrap;
+    }
+    .b2 button{
+        margin: 0% 620% 0% 0%;
+        padding: 15px 57px;
+    }
+    .far{
+        padding: 0px 5px;
+    }
+    .i1{
+        margin: 10% 45% 0% 0%;
+    }
+    .story{
+        padding: 200px 0px;
+        background-size: 90%;
+    }
+    .story h2{
+        font-size: 56px;
+    }
+    .story p{
+        margin: 0% 29%;
+    }
+    .quote{
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .quote h2{
+        margin: 0px 430px;
+    }
+    .truffle h2{
+        font-size: 56px;
+    }
+    .truffle p{
+        margin: 0% 28%;
+    }
+    .truffle_inner div{
+        flex: 0 0 30%;
+        height: 350px;
+        margin-bottom: 70px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .truffle_inner div img{
+        width: 45%;
+        height: 70%;
+    }
+    .truffle_inner div p{
+        padding: 0px 5px;
+        flex-wrap: wrap;
+    }
+    .images div{
+        width: 30%;
+        padding: 1px 5px;
+        height: 105%;
+        flex: 0 0 25%;
+    }
+    .col5 img{
+        margin-left: -380px;
+        margin-top: -100px;
+    }
+    .col6 img{
+        margin-left: -430px;
+        margin-top: -130%;
+    }
+    .col7 img{
+        margin-top: -500px;
+    }
+    .prices{
+        background-size: cover;
+        background-repeat: repeat;
+        padding: 160px 0px;
+    }
+    .prices h2{
+        font-size: 56px;
+    }
+    .prices p{
+        margin: 0% 28%;
+    }
+    .prices_inner div{
+        width: 40%;
+        flex: 0 0 20%;
+        padding: 30px 10px;
+        margin: 80px  40px 0px 40px;
+    }
+    .prices_inner div p{
+        margin: 0px 30px;
+    }
+    .list{
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .list img{
+        margin-left: 310px;
+    }
+    .list_inner1{
+        display: none;
+    }
+    .list h2{
+        font-size: 40px;
+        padding-top: 95px ;
+        padding-left: 320px;
+    }
+    .list_inner2{
+        display: block;
+    }
+    .list_inner2 div{
+        padding: 0px 0px 0px 300px;
+        text-align: left;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    .list button{
+        padding: 17px 55px;
+        margin-left: 300px;
+        margin-top: 30px;
+    }
+    .tradition h3{
+        font-size: 56px;
+    }
+    .tradition p{
+        margin: 0% 28%;
+    }
+    .tradition_inner{
+        display: flex;
+    }
+    .tradition_inner img{
+        width: 70%;
+        margin-left: 350px;
+        padding: 0px 5px 0px 0px;
+    }
+    .tradition_inner h3{
+        padding-left: 335px;
+        font-size: 24px;
+    }
+    .t2{
+        padding: 10px 0px 0px 5px;
+    }
+    .faces img{
+        width: 19.7%;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    .about_us h2{
+        font-size: 56px;
+    }
+    .about_us p{
+        margin: 0% 28%;
+    }
+    form input, textarea{
+        width: 35%;
+        display: inline-flex;
+        margin: 3px 0px;
+        padding: 15px 40px;
+    }
+    input[type="SUBMIT"]{
+        width: 10%;
+        margin: 0% 36%;
+        padding: 20px 20px;
+    }
+    .testimonal{
+        width: 100%;
+        background-size: cover;
+        height: 60vh;
+        padding: 0px 0px;
+    }
+    .testimonal h2{
+        font-size: 47px;
+    }
+    .testimonal p{
+        margin: 0% 28%;
+    }
+    .testimonal h4{
+        padding-top: 20px;
+        padding-bottom: 2px;
+    }
+    .contact,footer{
+        background-color: black;
+        text-align: center;
+        width: 100%;
+    }
+    .contact_inner{
+        display: inline-flex;
+        padding: 50px 0px;
+    }
+    .c1{
+        padding: 100px 60px;
+        text-align: left;
+    }
+    .c1 h3{
+        text-align: left;
+        margin-left: 100px;
+    }
+    .c2 p img{
+        height: 20%;
+        width: 30px;
+        margin: 0% 15%;
+    }
+    .c2 h3{
+        font-family: "Great Vibes", cursive;
+        color: #C19D56;
+        font-size: 30px;
+        font-weight: 100;
+    }
+    .c2 h2{
+        font-family: "Montserrat", sans-serif;
+        font-size: 23px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #C8C8C8;
+    }
+    .c2 p{
+        font-family: "Cormorant", serif;
+        font-size: 21px;
+        font-style: italic;
+        color: #C8C8C8;
+        line-height: 30px;
+        padding: 0px 5px ;
+    }
+    .inner_child{
+        width: 85%;
+        display: inline-flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #C19D56;
+        font-size: 35px;
+        padding: 40px 10px;
+    }
+    .c3 img{
+        width: 100%;
+        height: 70%;
+        padding: 80px 70px;
+    }
+    
+    footer p{
+        text-align: center;
+        font-family: "Cormorant", serif;
+        font-size: 17px;
+        font-style: italic;
+        color: #B5B5B5;
+        line-height: 30px;
+        padding: 18px 30px;
+    }
+    
+
+}
